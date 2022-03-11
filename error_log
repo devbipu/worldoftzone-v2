@@ -1,0 +1,2 @@
+[09-Nov-2021 04:40:27 America/New_York] PHP Warning:  require(/home/wibssjko/worldsoftzone.com/../vendor/autoload.php): failed to open stream: No such file or directory in /home/wibssjko/worldsoftzone.com/index.php on line 34
+[09-Nov-2021 04:40:27 America/New_York] PHP Fatal error:  require(): Failed opening required '/home/wibssjko/worldsoftzone.com/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/wibssjko/worldsoftzone.com/index.php on line 34

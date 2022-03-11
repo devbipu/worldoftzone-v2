@@ -1,0 +1,80 @@
+.about_wsz {
+    padding-top: 45px;
+}
+.about_wsz .col {
+    padding-left: 15%;
+    padding-right: 30%;
+}
+
+.about_wsz .col h2 {
+    border-top: 1.5px solid #fff;
+    border-bottom: 1.5px solid #fff;
+    padding: 8px 0 3px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    margin-right: 27%;
+}
+.about_wsz .col p {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+/*strat responsive*/
+.about_wsz .patterns h2{
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .about_wsz {
+        padding-top: 0px;
+        background: url(../img/subpages/worldsoftzone-about-bg.png);
+        min-height: 100vh;
+        background-size: cover;
+        background-position-x: 19%;
+    } 
+    
+}
+
+
+@media (max-width: 767px){
+    
+    .about_wsz {
+        padding-top: 0px;
+    }
+    
+    .about_wsz .col {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .spacer-50 {
+        height: 20px;
+    }
+    .about_wsz .col p {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    
+}
+
+
+
+

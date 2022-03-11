@@ -1,0 +1,122 @@
+.graphic-deisgn .service-item {
+    align-items: flex-start;
+}
+.service-item .col-1 {
+    width: 60%;
+    padding-right: 0;
+}
+.service-item.item-right .col-1 video#motion_graphic {
+    height: 282px;
+    background-color: #010001;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.service-item.item-left .col-1 {
+    padding-right: 5%;
+}
+.service-item .col-2 {
+    width: 40%;
+    padding-left: 5%;
+}
+.service-item.item-left .col-2 {
+    color: #fff;
+    padding-right: 20px;
+}
+.service-item .col-2 h1.heading {
+    margin-bottom: 15px;
+    text-align: left;
+    padding: 0;
+}
+.service-item.item-left .col-2 h1.heading {
+    color: #fff;
+}
+.service-item .col-2 h1.heading {
+    color: #000;
+    margin-top: 30px;
+}
+.service-item .col-2 p {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+.service-item.item-right .col-2 {
+    padding-left: 20px;
+    padding-right: 5%;
+}
+
+
+
+
+
+/*=== 1440px ===*/
+@media (min-width: 1280px){
+    .service-item.item-right .col-1 video#motion_graphic {
+        height: 471px;
+    }
+}
+
+/*=== 1440px ===*/
+@media (min-width: 1440px){
+    .service-item.item-right .col-1 video#motion_graphic {
+        height: 530px;
+    }
+}
+
+/*=== 1920px ===*/
+@media (min-width: 1600px){
+    .service-item.item-right .col-1 video#motion_graphic {
+        height: 700px;
+    }
+}
+
+/*=== 1440px ===*/
+@media (min-width: 2560px){
+    .service-item.item-right .col-1 video#motion_graphic {
+        height: 941px;
+    }
+}
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    
+    .service-item.item-right .col-1 video#motion_graphic {
+        height: auto;
+    }
+
+    .graphic-deisgn .service-item.item-right.m-reverse {
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+    .service-item .col-1 {
+        width: 100%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .service-item .col-2 {
+        width: 100%;
+    }
+    .service-item.item-right .col-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .service-item.item-right .action {
+        right: 15px;
+        left: inherit;
+    }
+    
+
+}
+
+/*=== 767px ===*/
+@media (max-width:460px){
+    .service-item .col-2 h1.heading {
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+    .service-item .col-2 p {
+        font-size: 14px;
+    }
+    
+}
+
+
+

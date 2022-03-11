@@ -1,0 +1,16 @@
+.logout-form ul{
+    margin-bottom: 0;
+}
+
+.logout-form ul li {
+    list-style: none;
+}
+
+.logout-form ul li a{
+    color: white;
+}
+
+
+.logout-form ul li .dropdown-item{
+	color: black;
+}

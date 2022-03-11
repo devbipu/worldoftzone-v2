@@ -1,0 +1,149 @@
+.mapp.ios {
+    margin-left: 0;
+    padding-right: 65%;
+}
+.mapp {
+    margin-left: 55%;
+    padding-right: 5%;
+}
+.mapp h1.heading {
+    margin-bottom: 30px;
+    color: #fff;
+    opacity: 0.8;
+}
+.mapp h1.heading span {
+    padding-left: 10%;
+}
+
+.mapp ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.mapp ul li span.icon {
+    padding-right: 15px;
+    width: 120px;
+}
+.mapp ul li span.text {
+    color: #fff;
+    font-size: 24px;
+    width: 100%;
+    font-family: 'clarkson2';
+    line-height: 1.2;
+}
+.mapp ul li span.icon img {
+    border: 2px solid #03ebf0;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #000;
+}
+
+
+
+
+
+
+/*=== 1024px && 1279px ===*/
+@media (min-width: 1024px) and (max-width: 1279px){
+    .mapp {
+        margin-left: 40%;
+    }
+
+    .single-template {
+        background-position: center center !important;
+        min-height: auto !important;
+    }
+    .mapp {
+        padding: 30px;
+        background-color: #1987b8d6;
+        border-radius: 15px;
+        margin: 0;
+    }
+    .mapp.ios {
+        margin-left: 0;
+        padding-right: 0;
+        padding-right: 33%;
+        background-color: #281c4af2;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .mapp.react {
+        background-color: #030f1bd9;
+    }
+    
+    
+}
+
+/*=== 1023px ===*/
+@media (max-width: 1023px){
+    
+    .single-template {
+        background-position: center center !important;
+        min-height: auto !important;
+    }
+    .mapp {
+        padding: 30px;
+        background-color: #1987b8d6;
+        border-radius: 15px;
+        margin: 0;
+    }
+    .mapp.ios {
+        margin-left: 0;
+        padding-right: 0;
+        padding-right: 33%;
+        background-color: #281c4af2;
+        padding: 30px;
+        border-radius: 15px;
+    }
+    .mapp.react {
+        background-color: #030f1bd9;
+    }
+    
+    
+    
+}
+
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    .mapp ul {
+        margin-bottom: 25px;
+    }
+    .mapp h1.heading {
+        opacity: 1;
+    }
+    .mapp h1.heading span {
+        padding-left: 0;
+    }
+    
+    .mapp ul li {
+        margin-bottom: 5px;
+    }
+    .mapp ul li span.icon {
+        width: 55px;
+        padding-right: 5px;
+    }
+    .mapp ul li span.text {
+        font-size: 18px;
+    }
+    
+    .mapp ul li span.icon img {
+        padding: 5px;
+    }
+    
+    
+   
+}
+
+
+/*=== 460px ===*/
+@media (max-width: 460px){
+    .mapp {
+        padding: 10px 10px 30px;
+    }
+    .mapp h1.heading {
+        margin-bottom: 10px;
+    }
+}
+
+

@@ -1,0 +1,122 @@
+/*.container {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}*/
+
+
+/*body.graphic-deisgn .web_single_page .services .service-item.item-left .col-1 {
+    width: 60%;
+}
+body.graphic-deisgn .web_single_page .services .service-item.item-left .col-2 {
+    width: 40%;
+}*/
+
+
+
+body.graphic-deisgn .web_single_page .service-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+body.graphic-deisgn .web_single_page .service-item .col-1 {
+    width: 100%;
+    padding-right: 0;
+}
+
+body.graphic-deisgn .web_single_page .service-item .col-2 h1:not(.-v) {
+    writing-mode: inherit;
+    position: absolute;
+    top: 100%;
+    margin-top: 50px;
+    color: #000;
+    left: 10%;
+}
+
+
+
+
+
+
+
+.single-graphic-template {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    /* background: radial-gradient(#1987b824, #ffffff); */
+}
+
+.single-graphic-template .col {
+    width: 50%;
+    background-color: #fff;
+    padding: 5% 5% 5%;
+    box-shadow: 0px 0px 10px -5px #0000008f;
+    margin: 3%;
+    border-radius: 14px;
+    margin-top: -12%;
+    position: relative;
+    z-index: 9;
+    left: 42%;
+    /* transform: translate(-50%, 0px); */
+    border-top: 5px solid black;
+}
+
+.single-graphic-template h1 {
+    margin-bottom: 15px;
+}
+.single-graphic-template p {
+    margin-bottom: 10px;
+}
+
+.single-graphic-template ul {
+    margin-top: 30px;
+}
+.single-graphic-template ul li {
+    list-style: auto;
+    padding-left: 6px;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000;
+}
+
+
+
+
+
+/*=== 1440px ===*/
+@media (min-width: 1440px){
+
+
+}
+
+/*=== 768px and 1279px ===*/
+@media (min-width: 768px) and (max-width: 1279px){
+    body.graphic-deisgn .web_single_page .service-item .col-2 h1:not(.-v) {
+        left: 0;
+        font-size: 70px;
+    }
+}
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    body.graphic-deisgn .web_single_page .service-item {
+        padding: 30px;
+    }
+    .single-graphic-template .col {
+        width: 100%;
+        left: 0;
+    }
+    body.graphic-deisgn .web_single_page .service-item .col-1 {
+        padding-left: 0;
+    }
+    body.graphic-deisgn .web_single_page .service-item .col-2 h1:not(.-v) {
+        position: inherit;
+        color: #fff;
+        margin-top: 10px;
+    }
+    .single-graphic-template .col {
+        margin-top: -40px;
+    }
+    
+
+}

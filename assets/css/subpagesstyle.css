@@ -1,0 +1,516 @@
+:root{
+	--button_animatin_border: #1987b8;
+	--button_glow_color:  #1987b8;
+}
+
+.preloader {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.filter-button{
+    display: none;
+}
+
+/*virtual assistant page*/
+
+.suppages_header h1{
+    font-size: 110px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 9;
+    opacity: 0.8;
+}
+
+/**======= Grapich page =======**/
+
+.global_services.graphic_services {
+    background: url(../img/subpages/grapich-page-bg.jpg);
+}
+
+
+/**======= Virtual page =======**/
+
+.global_services.virtual_assistant {
+    background: url(../img/subpages/virtual-assistant-bg.jpg);
+}
+
+
+
+/**======= software page =======**/
+.software_page{
+    background: url(../img/subpages/mobile-body.jpg);
+}
+
+
+/**======= software page =======**/
+
+
+
+
+/**======= about worldsoftzone page =======**/
+.about_wsz{
+    background: url(../img/subpages/worldsoftzone-about-bg.png);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/**=======  worldsoftzone team page =======**/
+.wsz_team{
+    background: url(../img/subpages/wsz-team.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/**=======  portfolio page =======**/
+.portfolio_wsz{
+    background: url(../img/subpages/worldsoftzone-portfolio-bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+.portfolio_wsz > .container-fluid > .row > .col-1 {
+    width: 20%;
+}
+.portfolio_wsz > .container-fluid > .row > .col-2 {
+    width: 80%;
+    padding-left: 3%;
+    position: relative;
+}
+.portfolio_wsz .col-1 h2 {
+    font-size: 17px;
+    font-family: 'clarkson2';
+    text-transform: uppercase;
+}
+.portfolio_wsz .col-1 ul {
+    margin-bottom: 20px;
+}
+.portfolio_wsz .col-1 ul li a {
+    display: block;
+    color: #000;
+    opacity: 0.8;
+    padding: 5px 0;
+    transition: 0.1s;
+}
+.portfolio_wsz .col-1 ul li a:hover, .portfolio_wsz .col-1 ul li a.active {
+    opacity: 1;
+    font-weight: bold;
+}
+
+
+
+.portfolio_wsz .card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.portfolio_wsz .card-wrapper .card {
+    width: 23%;
+    padding: 10px;
+    background: linear-gradient(145deg, #ededed, #fff);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+body.dedicated-team .portfolio_wsz .card-wrapper .card {
+    padding: 0px;
+    border-radius: 0px;
+}
+.portfolio_wsz .card-wrapper .card.hide_on_home {
+    display: none;
+}
+.portfolio_wsz .card-wrapper .card:nth-child(5n-1) {
+    margin-right: 0;
+}
+.portfolio_wsz .card-wrapper .card a {
+    display: block;
+}
+.portfolio_wsz .card-wrapper .card img.black {
+    filter: brightness(0);
+}
+.portfolio_wsz .card-wrapper .card img {
+    padding: 20px;
+    height: 200px;
+    object-fit: contain;
+}
+.portfolio_wsz .card-wrapper .card a span {
+    display: block;
+    color: black;
+}
+.portfolio_wsz .card-wrapper .card a span span {
+    font-weight: bold;
+    font-size: 80%;
+}
+body.dedicated-team .portfolio_wsz .card-wrapper .card a > span {
+    padding: 15px 10px;
+}
+body.dedicated-team .portfolio_wsz .card-wrapper .card img {
+    height: 240px;
+    object-fit: cover;
+    width: 100%;
+    padding: 0px;
+}
+
+
+
+
+/**=======  website sub pages =======**/
+
+/*web design*/
+.web_single_page .globalwebSubBg{
+    background: url(../img/subpages/web-design-sub-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/**=======  virtual sub pages =======**/
+
+.globalvirtualBg{
+    background: url(../img/subpages/virtual-assistant-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/**=======  software sub pages =======**/
+
+.globalSoftwareSubBg{
+    background: url(../img/subpages/software-sub-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/**=======  Mobile app sub pages =======**/
+
+.globalMobileAppSubBg{
+    background: url(../img/subpages/mobile-app-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+/**=======  Grapich app sub pages =======**/
+
+.globalGrapichSubBg{
+    background: url(../img/subpages/grapich-sub-bg.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/*=====web page====*/
+a.web_Stp div {
+    transform: scale(2.5);
+    transition: .5s;
+}
+
+a.web_Stp:hover .web_StpText{
+    color: red;
+    transform: scale(1);
+}
+.web_page_sec{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+}
+/*columns*/
+.web_page_sec .cols{
+    padding: 0px 20px;
+    width: 40%;
+    position: relative;
+}
+.web_page_sec .cols:first-child{
+    width: 60%;
+    position: relative;
+}
+.secBtn {
+    text-align: right;
+    position: absolute;
+    right: -100px;
+    bottom: -30px;
+}
+/*Button*/
+.siteBtn{
+    position: relative;
+    display:inline-block;
+    padding:15px 30px;
+    color:#2196f3;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 23px;
+    overflow: hidden;
+    transition: .1s;
+    cursor: pointer;
+    background: black;
+    border: 1px solid;
+    cursor: pointer;
+}
+.siteBtn:hover{
+    color: #ffffff;
+    background: var(--button_glow_color);
+    box-shadow: 0 0 10px var(--button_glow_color), 0 0 40px var(--button_glow_color), 0 0 80px var(--button_glow_color), 0 0 120px var(--button_glow_color);
+    transition-delay: 1s;
+}
+.siteBtn span{
+    position: absolute;
+    display: block;
+}
+/* first */
+.siteBtn span:nth-child(1){
+    top:0;
+    left:-100%;
+    width:100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent, var(--button_glow_color));
+}
+.siteBtn:hover span:nth-child(1){
+    left: 100%;
+    transition:1s;
+}
+/* 2nd */
+.siteBtn span:nth-child(3){
+    bottom:0;
+    right:-100%;
+    width:100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent, var(--button_glow_color));
+}
+.siteBtn:hover span:nth-child(3){
+    right: 100%;
+    transition:1s;
+    transition-delay: .5s;
+}
+/* 3rd */
+.siteBtn span:nth-child(2){
+    top:-100%;
+    right: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent, var(--button_glow_color));
+}
+.siteBtn:hover span:nth-child(2){
+    top: 100%;
+    transition:1s;
+    transition-delay: .25s;
+}
+/* 4rd */
+.siteBtn span:nth-child(4){
+    bottom:-100%;
+    left: 0;
+    width:2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent, var(--button_glow_color));
+}
+.siteBtn:hover span:nth-child(4){
+    bottom: 100%;
+    transition:1s;
+    transition-delay: .75s;
+}
+/*button end*/
+
+.web_page_sec .cols h1 {
+    font-size: 90px;
+    font-family: 'theboldfont';
+    text-align: right;
+}
+
+.web_page_sec .cols img{
+    /*transform: translatex(-90px) scale(1.2);*/
+}
+.web_sec_col_right{
+    padding-left: 160px !important;
+}
+.web_sec_col_right p{
+    writing-mode: vertical-rl;
+    position: absolute;
+}
+.secCounter h1 {
+    font-size: 260px !important;
+    color: lightgrey;
+    font-family: 'fantasy' !important;
+    writing-mode: vertical-lr;
+}
+
+
+
+
+@media(min-width:769px){
+  .about_wsz{
+        min-height: 900px;
+    }  
+}
+
+
+/**======= Responsive Css =======**/
+
+/** 768px **/
+@media(min-width: 768px){
+    .suppages_header h1 {
+        font-size: 42px;
+        text-align: center;
+    }
+    
+    /*web development sub page*/
+    .webDevelopment .header_title h1{
+        font-size: 100px;
+    }
+    
+    /*portfolio sub page*/
+    .portfolio_wsz{
+        min-heigh: 900px;
+    }
+    .portfolio_wsz .card-wrapper .card {
+        width: 31.33%;
+    }
+    
+    /*team sub page*/
+    .wsz_team{
+         min-height: 900px;
+    } 
+    
+    
+}
+/** 1280px **/
+@media(min-width: 1280px){
+    .suppages_header h1 {
+        font-size: 68px;
+    }
+    
+    /*portfolio sub page*/
+    .portfolio_wsz .card-wrapper .card {
+        width: 23%;
+    }
+}
+
+@media(min-width: 1600px){
+    
+    
+    .suppages_header h1 {
+        font-size: 100px;
+    }
+    
+    
+    body.dedicated-team .portfolio_wsz .card-wrapper .card img {
+        height: 325px;
+    }
+}
+
+
+
+
+/** 767px **/
+@media(max-width: 767px){
+    
+    .suppages_header h1.heading {
+        font-size: 36px;
+        word-spacing: inherit;
+    }
+
+    /*portfolio sub page*/
+    .portfolio_wsz > .container-fluid > .row > .col-1 {
+        max-height: 100vh;
+        overflow-x: scroll;
+    }
+    .portfolio_wsz .card-wrapper .card {
+        width: 31.33%;
+    }
+    
+    .portfolio_wsz .col-1 h2 {
+        font-size: 14px;
+    }
+    .portfolio_wsz .col-1 ul li a {
+        font-size: 13px;
+        padding: 3px 0;
+    }
+    .portfolio_wsz .card-wrapper .card a span {
+        font-size: 14px;
+    }
+    
+    
+}
+
+
+/** 550px **/
+@media(max-width: 550px){
+    
+    
+    
+    /*portfolio sub page*/
+    .filter-button{
+        display: block;
+    }
+    .filter-button {
+        text-align: right;
+    }
+    .filter-button button {
+        background-color: #1987b8;
+        border: 1px solid #1987b8;
+        padding: 4px 10px 2px;
+        border-radius: 4px;
+    }
+    .portfolio_wsz > .container-fluid > .row > .col-1 .filter-by {
+        display: none;
+    }
+    
+    .portfolio_wsz > .container-fluid > .row > .col-1 .filter-by.active {
+        display: block;
+    }
+    
+    .portfolio_wsz .card-wrapper .card a span {
+        font-size: 14px;
+    }
+    
+    .portfolio_wsz .card-wrapper .card {
+        width: 46%;
+        margin: 10px 2%;
+    }
+
+    .portfolio_wsz > .container-fluid > .row > .col-1 {
+        width: 100%;
+    }
+    .portfolio_wsz > .container-fluid > .row > .col-2 {
+        width: 100%;
+        padding-left: 0%;
+    }
+    .portfolio_wsz .card-wrapper .card img {
+        height: 125px;
+    }
+
+    
+
+}
+
+
+/** 460px **/
+@media(max-width: 460px){
+    
+    body.dedicated-team .portfolio_wsz .card-wrapper .card img {
+        height: 190px;
+    }   
+    
+}
+
+@media(max-width: 375px){
+    
+    body.dedicated-team .portfolio_wsz .card-wrapper .card img {
+        height: 148px;
+    }
+
+}

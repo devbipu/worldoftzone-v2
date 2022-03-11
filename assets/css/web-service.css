@@ -1,0 +1,277 @@
+.web_single_page .service-item .col-2 h1.heading {
+    font-size: 90px;
+    line-height: 0.9;
+}
+
+
+.service-breadcrumb h1.heading {
+    font-size: 7em;
+}
+.service-breadcrumb p {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 70px 0;
+    position: relative;
+}
+.web_single_page .service-item{
+    align-items: flex-start;
+    
+}
+.web_single_page .service-item .col-2 h1.heading {
+    font-size: 90px;
+    line-height: 0.9;
+    text-align: left;
+}
+.web_single_page .service-item h1.heading span {
+    text-align: left;
+}
+.service-item .col-1 {
+    width: 80%;
+    padding-right: 5%;
+}
+.service-item .col-1 img {
+    width: 100%;
+}
+.service-item.item-right .col-1 {
+    padding-right: 0%;
+    padding-left: 5%;
+}
+.service-item.item-right .col-2 h1 {
+    color: #000;
+}
+.service-item .col-2 {
+    overflow: hidden;
+    width: 20%;
+}
+.services .container-fluid {
+    padding: 0;
+}
+.service-item.item-left {
+    background-color: #000;
+}
+.services .service-item .heading {
+    margin-bottom: 35px;
+    padding: 0 35px;
+}
+.service-item .col-2 h1:not(.-v) {
+    text-align: right;
+    writing-mode: vertical-rl;
+    font-size: 300px;
+    color: #cdcdcd;
+    font-family: 'theboldfont';
+    line-height: 0.8;
+    float: right;
+}
+body.web-services .services .service-item .heading {
+    padding-right: 100px;
+}
+.service-item.item-right h1:not(.-v) {
+    float: none;
+}
+.service-item.item-left .col-1 h1.heading.font-3 {
+    color: #cdcdcd;
+}
+.service-item.item-right .col-2 h1:not(.-v) {
+    color: #1c1a1c;
+}
+.service-item.item-left .action {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.service-item.item-right .action {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+
+
+
+
+
+
+/*=== min 768px to max 1023px ===*/
+@media (min-width: 768px) and (max-width: 1023px){
+    .service-breadcrumb h1.heading {
+        font-size: 3em;
+    }
+    .service-breadcrumb p {
+        font-size: 30px;
+        line-height: 1;
+    }
+    
+    .service-item .col-2 {
+        width: 30%;
+    }
+    .service-item .col-1 {
+        width: 70%;
+    }
+    .service-item .col-2 h1:not(.-v) {
+        font-size: 220px;
+    }
+    
+    body.web-services .services .service-item .heading {
+        padding-right: 30px;
+    }
+    
+    
+    
+    
+    /*=== Single Service Css ===*/
+    body.web-services .web_single_page .services .service-item .heading {
+        font-size: 50px;
+    }
+    
+    body.web-services .web_single_page .service-item .col-1 {
+        width: 75%;
+    }
+    body.web-services .web_single_page .service-item .col-2 {
+        width: 25%;
+    }
+    
+    
+    
+}
+
+
+/*=== min 1023px to max 1279px ===*/
+@media (min-width: 1024px) and (max-width: 1279px){
+    .service-breadcrumb h1.heading {
+        font-size: 4em;
+    }
+    .service-breadcrumb p {
+        font-size: 32px;
+        line-height: 1;
+    }
+    
+    .service-item .col-1 {
+        width: 74%;
+    }
+    
+    .service-item .col-2 {
+        width: 26%;
+    }
+    body.web-services .services .service-item .heading {
+        padding-right: 30px;
+    }
+    
+    
+}
+
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    
+    
+    .service-breadcrumb h1.heading {
+        font-size: 2em;
+        word-spacing: initial;
+    }
+    .service-breadcrumb p {
+        font-size: 18px;
+        line-height: 1;
+    }
+    
+    .service-item .col-2 {
+        width: 25%;
+    }
+    .service-item .col-1 {
+        width: 75%;
+    }
+    body.web-services .services .service-item .heading {
+        padding-right: 15px;
+    }
+    .service-item .col-2 h1:not(.-v) {
+        font-size: 150px;
+    }
+    .services .service-item .heading {
+        margin-bottom: 10px;
+        padding: 0 10px;
+        font-size: 35px;
+        word-spacing: 3px;
+    }
+    .service-item .col-2 h1 {
+        font-size: 16em;
+    }
+    
+    
+    
+    /*=== Single Service Css ===*/
+    .web_single_page .service-item .col-1 {
+        width: 100%;
+        padding-left: 5%;
+    }
+    .web_single_page .service-item .col-2 {
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 20px;
+    }
+    .web_single_page .service-item .col-2 h1:not(.-v) {
+        writing-mode: inherit;
+        float: none;
+        width: 100%;
+        font-size: 52px;
+    }
+    .web_single_page .service-item h1.heading span {
+        display: inline-block;
+    }
+    
+    
+    
+}
+
+
+/*=== 460px ===*/
+@media (max-width: 460px){
+    
+    .services .service-item .heading {
+        font-size: 26px;
+        margin-top: 40px;
+    }
+    .service-item .col-2 h1:not(.-v) {
+        font-size: 110px;
+    }
+    
+    /*=== Single Service Css ===*/
+    .web_single_page .service-item {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .web_single_page .service-item .col-2 h1:not(.-v) {
+        font-size: 32px;
+        margin-top: 0;
+        line-height: 1;
+    }
+    
+    
+}
+
+
+/*=== 320px ===*/
+@media (max-width: 375px){
+    .service-breadcrumb h1.heading {
+        font-size: 22px;
+    }
+    .service-breadcrumb p {
+        font-size: 16px;
+    }
+
+    .service-item .col-2 h1:not(.-v) {
+        font-size: 80px;
+    }
+    
+    
+}
+
+
+
+
+

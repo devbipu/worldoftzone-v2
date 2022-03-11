@@ -1,0 +1,117 @@
+.mobile_app_services .suppages_header h1 {
+    color: #fff;
+}
+.mobile_app_services .suppages_header .container-fluid {
+    text-align: center;
+}
+.mobile_app_services .suppages_header h1 {
+    color: #fff;
+    text-align: left;
+    display: inline-block;
+}
+
+.mobile_app_services .col-1 .apps {
+    text-align: center;
+    padding: 27px 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #0000005c;
+    max-width: 300px;
+    width: 100%;
+    margin-top: 40px;
+    background: none;
+    position: relative;
+}
+
+.mobile_app_services .col-1 .apps img {
+    max-width: 84px;
+    border-radius: 100%;
+    padding: 10px;
+    background-color: #ffffffb8;
+}
+
+
+.mobile_app_services .col-1 .apps h2 {
+    font-size: 22px;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #ffffffc9;
+}
+
+.mobile_app_services .global_services{
+    padding: 0px;
+}
+
+
+.mobile_app_services .global_services .container-fluid .row {
+    align-items: center;
+}
+.mobile_app_services .global_services .col-1 {
+    width: 35%;
+    padding-left: 5%;
+}
+.mobile_app_services .global_services .col-2 {
+    width: 65%;
+    overflow: hidden;
+}
+.mobile_app_services .global_services .col-2 img {
+    transform: scale(1.2);
+}
+.mobile_app_services .col-1 .apps a.btn {
+    font-family: 'clarkson2';
+    background: none;
+    border-bottom: 3px solid #000000;
+    color: #ffffffc9;
+}
+
+
+
+
+
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    .mobile_app_services .global_services .col-1 {
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mobile_app_services .global_services .col-2 {
+        width: 100%;
+        text-align: center !important;
+        margin-bottom: 0;
+    }
+    .mobile_app_services .global_services .container-fluid .row {
+        flex-direction: column-reverse;
+    }
+    .mobile_app_services .global_services .col-1 .apps {
+        margin-top: 28px;
+        width: 48%;
+        max-width: 100%;
+    }
+    .mobile_app_services .global_services .col-2 img {
+        max-width: 350px;
+    }
+    
+    
+}
+
+
+/*=== 375px ===*/
+@media (max-width: 375px){
+    .mobile_app_services .global_services .col-1 .apps{
+        width:100%;
+    }
+    .mobile_app_services .global_services .col-2 img {
+        max-width: 100%;
+    }
+}
+
+
+
+
+
+
+

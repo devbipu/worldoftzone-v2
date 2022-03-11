@@ -1,0 +1,144 @@
+.global_services{
+    min-height: 100vh;
+    padding: 70px 0px;
+}
+.global_services .service-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 15px;
+    background-color: #ffffff8c;
+    height: 100%;
+    padding: 30px 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 5px #00000024;
+    position: relative;
+    overflow: hidden;
+}
+
+/*.global_services .service-box:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 70%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1987b80f;
+    border-radius: 100%;
+    z-index: 9;
+    transform: translate(0px, -51%);
+}*/
+.global_services .service-box img {
+    max-width: 80px;
+}
+.global_services .service-box .title {
+    display: block;
+    line-height: 1.3;
+    font-size: 20px;
+    color: #000;
+    transition: 0.2s;
+    opacity: 0.9;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.global_services .service-box .title:hover {
+    opacity: 1;
+}
+.global_services .service-box p {
+    margin: 8px 0 15px;
+}
+
+.global_services .service-box .bottom a {
+    opacity: 0.4;
+    transition: 0.2s;
+}
+.global_services .service-box .bottom a:hover {
+    opacity: 1;
+}
+.global_services .service-box > div {
+    position: relative;
+    z-index: 99;
+}
+
+
+
+
+/* ==== 768px ==== */
+@media (min-width: 768px){
+    
+    .global_services .row > div {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .global_services .service-box .title {
+        font-size: 20px;
+    }
+
+}
+
+/* ==== 1024px ==== */
+@media (min-width: 1024px){
+    
+    .global_services .row > div {
+        width: 33.33%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* ==== 1440px ==== */
+@media (min-width: 1440px){
+    
+}
+
+/* ==== 1600px ==== */
+@media (min-width: 1600px){
+    
+}
+
+/* ==== 1920px ==== */
+@media (min-width: 1920px){
+    
+    .global_services .service-box .title {
+        font-size: 1.7vw;
+    }
+    
+}
+
+/* ==== 2560px ==== */
+@media (min-width: 2560px){
+    
+    
+}
+
+
+
+/* ==== 767px ==== */
+@media (max-width: 767px){
+    
+    .global_services .row > div {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* ==== 460px ==== */
+@media (max-width: 460px){
+    
+    .global_services .row > div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+}
+
+/* ==== 375px ==== */
+@media (max-width: 375px){
+    
+}
+
+
+

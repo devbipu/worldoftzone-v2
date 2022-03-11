@@ -1,0 +1,101 @@
+.single-software-template ul {
+    margin-left: 1em;
+}
+
+.single-software-template .row .col {
+    width: 50%;
+    padding-right: 5%;
+}
+.single-software-template .row .col-1 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.single-software-template h1 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.single-software-template p {
+    margin-bottom: 10px;
+}
+
+.single-software-template ul li {
+    list-style: auto;
+    padding-left: 6px;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.soft_feature {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.soft_feature .sales_features_col {
+    width: 50%;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+.soft_feature .sales_features_col div {
+    margin-bottom: 30px;
+}
+.single-software-template .spacer-20 {
+    height: 0;
+}
+
+
+.single-software-template.education .row .col {
+    padding-right: 15%;
+    color: #fff;
+}
+.single-software-template.education ul li {
+    color: #fff;
+}
+.single-software-template.health .col {
+    background-color: #ffffff3b;
+    padding: 4%;
+    border-radius: 30px;
+}
+
+
+
+@media(max-width: 1279px){
+    .single-software-template .row .col {
+        padding: 30px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    
+    .single-software-template.sales-inventory .row .col {
+        background-color: #49a8aade;
+    }
+    .single-software-template.accounting-erp-solution .row .col {
+        background-color: #1a96d485;
+    }
+    .single-software-template.education .row .col {
+        background-color: #00121ed9;
+    }
+    .single-software-template.customize-software .row .col {
+        background-color: #ffffffd4;
+    }
+    
+    
+}
+
+
+@media(max-width: 767px){
+    .soft_feature .sales_features_col {
+        width: 100%;
+    }
+    .single-software-template .row .col {
+        padding: 15px !important;
+    }
+}
+
+
+

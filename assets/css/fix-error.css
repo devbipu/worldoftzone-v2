@@ -1,0 +1,159 @@
+.fix-error .row {
+    align-items: center;
+}
+.fix-error .col-1 {
+    width: 60%;
+    padding-right: 5%;
+}
+
+.fix-error .col-2 {
+    width: 40%;
+}
+
+
+.fix-error .col-2 p {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.fix-error .col-2 ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+.fix-error .col-2 ul li:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #999;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    border-radius: 100%;
+}
+
+
+.global_services {
+    min-height: auto;
+    padding: 0;
+}
+.global_services .row > div {
+    width: 25%;
+}
+.global_services .container-fluid {
+    padding-top: 0;
+}
+.global_services.error-fixing {
+    margin-top: -80px;
+}
+.global_services .service-box {
+    background-color: #fff;
+    border-radius: 130px;
+}
+
+
+
+.error-fixing-2 {
+    background-color: #fffcf1;
+    color: #333;
+    position: relative;
+}
+.error-fixing-2 .action {
+    position: absolute;
+    /*top: 50%;*/
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.error-fixing-2 .col-1 {
+    width: 40%;
+    padding-left: 10%;
+}
+.error-fixing-2  .col-2 {
+    width: 60%;
+    text-align: center;
+    padding-left: 7%;
+}
+.error-fixing-2 .row {
+    align-items: center;
+}
+.error-fixing-2 .col-1 ul {
+    border-left: 4px solid #dbdddf;
+    margin-left: 0px;
+    border-radius: 4px;
+}
+.error-fixing-2 .col-1 ul li {
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 5px;
+    padding-left: 15px;
+}
+
+
+
+
+
+
+/*=== min 768px && max 1279px ===*/
+@media (min-width: 768px) and (max-width: 1279px){
+    .global_services .row > div {
+        width: 50%;
+    }
+    .error-fixing-2 .col-1 {
+        padding-left: 0%;
+    }
+}
+   
+    
+    
+/*=== 767px ===*/
+@media (max-width: 767px){
+    
+    .global_services.error-fixing {
+        margin-top: -40px;
+    }
+    
+    .error-fixing-2 .col-1,
+    .error-fixing-2 .col-2{
+        padding-left: 0%;
+        width: 50%;
+    }
+    
+    .global_services .row > div {
+        width: 100%;
+    }
+    .global_services .service-box {
+        border-radius: 10px;
+    }
+    .error-fixing-2 .action {
+        bottom: 0;
+    }
+    
+    
+}
+
+/*=== 460px ===*/
+@media (max-width: 460px){
+    .error-fixing-2 .col-1 ul li {
+        font-size: 16px;
+    }
+
+    .global_services.error-fixing {
+        margin-top: -25px;
+    }
+
+    .error-fixing-2 .col-1, .error-fixing-2 .col-2 {
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+

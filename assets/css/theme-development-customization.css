@@ -1,0 +1,226 @@
+.theme-dev-wrapper {
+    background-color: #bcf0fb;
+    padding: 35px 35px 0px;
+    overflow: hidden;
+}
+.theme-dev-wrapper .theme-dev-customization {
+    margin-bottom: 35px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #00000087;
+}
+
+
+.t-heading {
+    background-color: #ffffff57;
+    position: relative;
+    z-index: 9;
+    padding: 15px 20px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 3px #62626257;
+}
+.t-heading .col-1 {
+    width: 40%;
+}
+.t-heading .col-2 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.t-heading .col-2 {
+    text-align: right;
+}
+.t-heading .col-2 img {
+    max-width: 80px;
+}
+.t-heading .row {
+    align-items: center;
+}
+.t-heading .col-1 h1.heading {
+    color: #000;
+}
+.t-heading .col-2 .action {
+    margin-right: 15px;
+}
+
+.t-content .col-1
+{
+    width: 40%;
+    position: relative;
+    z-index: 9;
+}
+.t-content .col-2
+{
+    width: 20%;
+}
+.t-content .col-3
+{
+    width: 40%;
+    position: relative;
+    z-index: 9;
+}
+
+.t-content .col-2 {
+    transform: scale(2);
+    position: relative;
+    z-index: 1;
+    align-self: center;
+}
+.t-content p {
+    font-size: 18px;
+}
+.t-content h2 {
+    margin-bottom: 10px;
+}
+.t-content ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+.t-content ul li:after {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: #999;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    border-radius: 100%;
+}
+
+
+
+.theme-dev-customization.bg-color {
+    color: #ddecf3;
+    background: linear-gradient(145deg, #2980b9, #3498d8);
+}
+.theme-dev-customization.bg-color .heading {
+    color: #ddecf3;
+}
+.theme-dev-customization.bg-color .t-content ul li:after {
+    background-color: #99becf;
+}
+
+
+/*=== Shopify Css ===*/
+.theme-dev-customization.bg-color.shopify {
+    color: #f8ffe9;
+    background: linear-gradient(
+145deg, #96c044, #5e8f3c);
+}
+.theme-dev-customization.bg-color.shopify .heading {
+    color: #f8ffe9;
+}
+.theme-dev-customization.bg-color.shopify .t-content ul li:after {
+    background-color: #5f903c;
+}
+
+
+
+
+/*=== wix Css ===*/
+.theme-dev-customization.bg-color.wix {
+    color: #e7e7e7;
+    background: linear-gradient(
+145deg, #000000, #b9b9b9);
+}
+
+.theme-dev-customization.bg-color.wix .heading {
+    color: #e7e7e7;
+}
+.theme-dev-customization.bg-color.wix .t-content ul li:after {
+    background-color: #cdcdcd;
+}
+
+.theme-dev-customization.bg-color.wix .t-content .col-2 {
+    opacity: 0.1;
+}
+
+/*=== squarespace Css ===*/
+.theme-dev-customization.bg-color.squarespace {
+    color: #e7e7e7;
+    background: linear-gradient(
+145deg, #000000, #b9b9b9);
+}
+
+.theme-dev-customization.bg-color.squarespace .heading {
+    color: #e7e7e7;
+}
+.theme-dev-customization.bg-color.squarespace .t-content ul li:after {
+    background-color: #cdcdcd;
+}
+
+.theme-dev-customization.bg-color.squarespace .t-content .col-2 {
+    opacity: 0.1;
+}
+
+
+
+
+/*=== 767px ===*/
+@media (max-width: 767px){
+    
+    .theme-dev-customization.bg-color.squarespace,
+    .theme-dev-customization.bg-color.wix{
+        background: linear-gradient(
+    145deg, #000000, #b9b9b9);
+    }
+    
+    
+    .theme-dev-wrapper {
+        padding: 0px 15px 0px;
+    }
+    .t-heading .col-1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .t-heading .col-2 {
+        width: 100%;
+        justify-content: center;
+        margin-top: 6px;
+    }
+    .t-content {
+        position: relative;
+    }
+    .t-content .col-1, .t-content .col-2, .t-content .col-3 {
+        width: 100%;
+    }
+    .t-content .col-2 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .t-content .col-2 img {
+        width: 100%;
+    }
+ 
+}
+
+@media (max-width: 460px){
+    
+    .t-content ul li,
+    .t-content p{
+        font-size: 16px;
+    }
+    
+}
+
+/*=== 320px ===*/
+@media (max-width: 320px){
+    
+    .t-heading .col-2 {
+        flex-wrap: wrap;
+    }
+    
+    .t-heading .col-2 .action {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+
