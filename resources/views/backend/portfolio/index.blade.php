@@ -4,7 +4,7 @@
 
 
 
-@section('adminBodyContent')
+@section('admin-content')
 
 	<h3>All portfolio here</h3>
 

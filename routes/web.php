@@ -120,7 +120,7 @@ Route::get('/dashboard', [App\Http\Controllers\HomeController::class, 'index'])-
 // });
 
 
-Route::post('/dashboard/logout', [LoginController::class, "onLogout"]);
+Route::get('/dashboard/logout', [LoginController::class, "onLogout"]);
 
 
 

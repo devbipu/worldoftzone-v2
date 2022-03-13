@@ -4,9 +4,9 @@
 
 @extends('backend.layout.admindb')
 
-@section('bc-title') All Pages @endsection
+@section('bc-title') Dashboard @endsection
 
-@section('adminBodyContent')
+@section("admin-content")
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12">
